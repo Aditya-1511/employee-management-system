@@ -1,0 +1,40 @@
+.landingPage {
+  background-color: rgb(29, 143, 209);
+  height: 100vh;
+  width: 100vw;
+}
+
+.headingLanding {
+  text-align: center;
+  color: white;
+}
+
+.loginText {
+  text-align: center;
+  color: white;
+}
+
+.buttonsBox {
+  /* border: 1px solid black; */
+  padding-top: 40px;
+}
+
+.buttons {
+  /* border: 1px solid white; */
+  /* height: 5vh; */
+  width: 60vw;
+  margin: 5%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.compnyLogoImage {
+  border: 1px solid white;
+  background-attachment: fixed;
+  height: 250px;
+  margin: 20px;
+  border-radius: 10px;
+  margin-left: 43%;
+}

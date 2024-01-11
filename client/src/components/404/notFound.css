@@ -1,0 +1,16 @@
+.mainNotFound {
+  background-color: rgb(29, 143, 209);
+  margin: 10%;
+  text-align: center;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.notFoundHeading {
+  margin-top: 2%;
+}
+
+.notFound {
+  letter-spacing: 4px;
+  color: white;
+}
