@@ -187,6 +187,7 @@ function Home() {
               <Form.Control
                 type="text"
                 required
+                maxLength={10}
                 onChange={(e) => setPhoneNumber(e.target.value)}
               />
             </Form.Group>
@@ -219,6 +220,7 @@ function Home() {
               <Form.Control
                 type="text"
                 required
+                maxLength={12}
                 onChange={(e) => setIdCardNumber(e.target.value)}
               />
             </Form.Group>
@@ -235,6 +237,7 @@ function Home() {
               <Form.Control
                 type="text"
                 required
+                maxLength={15}
                 onChange={(e) => setBankAccountNumber(e.target.value)}
               />
             </Form.Group>
@@ -251,6 +254,8 @@ function Home() {
               <Form.Control
                 type="password"
                 required
+                maxLength={15}
+                minLength={8}
                 onChange={(e) => setRegPassword(e.target.value)}
               />
             </Form.Group>
