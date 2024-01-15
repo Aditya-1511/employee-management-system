@@ -180,3 +180,15 @@ tr {
   margin-left: 25%;
   border: 1px solid black;
 }
+
+.sidebar-links {
+  color: #555;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.sidebar-links.active {
+  background-color: #e0e0e0;
+  color: #333;
+  font-weight: bold;
+}

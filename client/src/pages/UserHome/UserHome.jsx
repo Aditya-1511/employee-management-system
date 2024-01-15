@@ -67,7 +67,6 @@ function UserHome() {
         <div className="sidebar-contents">
           <ul type="none" className="sidebar-list">
             <li className="sidebar-links">Dashboard</li>
-            {/* <li className="sidebar-links">Employee</li> */}
             <li className="sidebar-links">Project</li>
             <li className="sidebar-links">Settings</li>
           </ul>
