@@ -5,6 +5,7 @@ import axios from "axios";
 import "./userHome.css";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function UserHome() {
   const [userData, setUserData] = useState({});
@@ -66,9 +67,21 @@ function UserHome() {
         <div className="userName">{userData.user_name}</div>
         <div className="sidebar-contents">
           <ul type="none" className="sidebar-list">
-            <li className="sidebar-links">Dashboard</li>
-            <li className="sidebar-links">Project</li>
-            <li className="sidebar-links">Settings</li>
+            <li className="sidebar-links">
+              <NavLink to="/dashboard" activeClassName="active">
+                Dashboard
+              </NavLink>
+            </li>
+            <li className="sidebar-links">
+              <NavLink to="/projects" activeClassName="active">
+                Projects
+              </NavLink>
+            </li>
+            <li className="sidebar-links">
+              <NavLink to="/settings" activeClassName="active">
+                Settings
+              </NavLink>
+            </li>
           </ul>
         </div>
         <div className="logoutButton">
